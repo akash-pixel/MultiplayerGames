@@ -16,7 +16,7 @@ public class GameFrame extends JFrame {
         this.setTitle("Ping Pong Game");
         this.setResizable(false);
         this.setBackground(Color.black);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.pack();
         this.setVisible(true);
         this.setLocationRelativeTo(null);
