@@ -14,7 +14,7 @@ public class TicTacToe implements ActionListener {
     boolean player1_turn;
 
     public TicTacToe() {
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setSize(500, 500);
         frame.getContentPane().setBackground(new Color(50, 50, 50));
         frame.setVisible(true);
